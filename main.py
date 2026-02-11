@@ -1,12 +1,16 @@
 def add(a, b):
     pass
+from add import add
+from sub import sub
+from mul import mul
 
-def subtract(a, b):
-    pass
+def main():
+    print("add:", add(2, 3))
+    print("sub:", sub(5, 2))
+    print("mul:", mul(3, 4))
 
-def multiply(a, b):
-    pass
 
-def divide(a, b):
-    pass
+if __name__ == "__main__":
+    main()
+
 
